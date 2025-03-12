@@ -6,3 +6,8 @@ Pre-installed APIs: It includes APIs for camera, location, push notifications, e
 Expo Go App: Test your app instantly on a real device without needing a full build process.
 Over-the-Air (OTA) Updates: Deploy updates to users without resubmitting to app stores.
 Easier Deployment: Publish apps with expo publish and build APKs/IPAs using eas build.
+
+
+Expo is a great choice for beginners and rapid prototyping. If you need full control over native code, you may want to use the bare React Native workflow.
+
+Would you like a sample project or a specific guide on using Expo features? 🚀
