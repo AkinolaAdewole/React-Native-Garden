@@ -1,0 +1,14 @@
+React Native is primarily designed for building mobile applications for iOS and Android, but there are ways to extend its functionality to create both desktop applications and web applications. Here’s how React Native can be used for each platform:
+
+1. Building Computer Software (Desktop Applications)
+Yes, React Native can be extended to build desktop applications, though it's not its primary focus. This can be done using certain libraries and frameworks.
+
+a. React Native for Windows and macOS:
+React Native for Windows and macOS is an extension of React Native that allows developers to build native desktop applications for Windows and macOS using React Native.
+
+These projects are maintained by Microsoft and allow you to use React Native to create cross-platform apps that work on mobile, Windows, and macOS.
+
+Documentation:
+
+React Native for Windows
+React Native for macOS
