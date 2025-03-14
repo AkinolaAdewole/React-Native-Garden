@@ -12,3 +12,10 @@ Documentation:
 
 React Native for Windows
 React Native for macOS
+
+
+b. Electron + React Native:
+Electron is a popular framework for building cross-platform desktop applications using web technologies like HTML, CSS, and JavaScript. You can integrate React Native with Electron to create desktop apps for Windows, macOS, and Linux.
+You can either:
+Use React with Electron directly to create a desktop app.
+Combine React Native and Electron using libraries like react-native-electron or react-native-web (to share React Native components across desktop and web).
