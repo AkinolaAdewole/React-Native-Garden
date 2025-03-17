@@ -3,3 +3,12 @@ If you're using a physical Android device:
 Connect your Android device via USB.
 On your Android phone, enable USB Debugging in Developer Options (similar to the steps in my previous message).
 Make sure to allow the computer to connect to your device when prompted on your phone.
+
+
+Set Up an Android Emulator in Android Studio
+If you prefer using an emulator, you can set up an Android Virtual Device (AVD) in Android Studio:
+Open Android Studio and navigate to AVD Manager from Tools > Device Manager.
+Click Create Virtual Device, select a phone model, and click Next.
+Choose a system image (such as API level 29 or higher).
+Finish setting up the emulator and click Play to start it.
+Once the emulator is running, go back to Android Studio.
