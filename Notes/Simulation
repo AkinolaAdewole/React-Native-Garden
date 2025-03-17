@@ -1,0 +1,5 @@
+. Enable USB Debugging on Android Device
+If you're using a physical Android device:
+Connect your Android device via USB.
+On your Android phone, enable USB Debugging in Developer Options (similar to the steps in my previous message).
+Make sure to allow the computer to connect to your device when prompted on your phone.
