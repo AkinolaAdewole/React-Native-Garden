@@ -62,4 +62,6 @@ Enable ADB in Bluestacks:
 Go to Bluestacks settings by clicking the gear icon.
 Under Advanced, enable Android Debug Bridge (ADB).
 Connect Bluestacks to Flutter:
+
 Find Bluestacks' ADB port number by running the following command in your terminal or command prompt:
+           adb connect localhost:5555
