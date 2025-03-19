@@ -25,3 +25,12 @@ React Native has a large and active developer community, which means a vast numb
 Flexibility:
 
 React Native allows you to combine JavaScript and native code. If needed, you can write native modules in Swift (for iOS) or Java/Kotlin (for Android) and integrate them into your app alongside React Native.
+
+
+When to Choose React Native vs Expo
+Choose React Native if:
+You need complete control over your app’s native code and customizations.
+Your app requires custom native modules or native features that Expo doesn’t support.
+You are building a high-performance, large-scale app that needs specific optimizations.
+You’re experienced with mobile development and want to manage every aspect of the app.
+You need to work with third-party native SDKs or hardware-specific APIs.
