@@ -1,1 +1,9 @@
 When to Choose React Native vs Expo
+
+Choose Expo if:
+You are new to React Native and want a quick start without worrying about native configurations.
+You want to avoid managing native code and focus purely on JavaScript/React development.
+You’re building an MVP or simple app that doesn’t need deep native customizations.
+You want fast iteration, easy app testing, and over-the-air updates.
+You prefer a streamlined, managed environment with fewer setup and configuration tasks.
+You want to use Expo Go to quickly test your app on physical devices without a complicated setup.
