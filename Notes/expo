@@ -1,3 +1,10 @@
+Expo:
+Expo is a set of tools and services built on top of React Native that simplifies the development process by abstracting much of the native configuration. It allows you to build React Native apps without directly dealing with Xcode or Android Studio during most of the development process.
+Ease of Use: High. Comes with a pre-configured environment and many useful features out of the box, like push notifications, camera, GPS, etc.
+Limitations: Certain native features or custom native code might not be possible without ejecting (detaching) from the managed workflow.
+Complexity: Low. It's much simpler to set up and get started, especially for beginners.
+
+
 When to Choose React Native vs Expo
 
 Choose Expo if:
