@@ -14,3 +14,13 @@ You’re building an MVP or simple app that doesn’t need deep native customiza
 You want fast iteration, easy app testing, and over-the-air updates.
 You prefer a streamlined, managed environment with fewer setup and configuration tasks.
 You want to use Expo Go to quickly test your app on physical devices without a complicated setup.
+
+
+For a complex game like Designer City 2, which requires high performance, real-time updates, complex animations, and possibly 3D graphics, React Native is the better choice because it provides:
+
+Full access to native code and performance optimizations.
+Flexibility to integrate third-party game engines (Unity, Cocos2d).
+Direct control over rendering, memory management, and game mechanics.
+Expo, while excellent for rapid mobile app development, is not well-suited for performance-heavy games. If you start with Expo and eventually need more performance or access to native features, you would have to eject to React Native, losing many of Expo’s advantages.
+
+So, if you're aiming to build a game like Designer City 2, you should start with React Native to avoid limitations down the road. You can integrate game engines and custom native code, providing the performance and flexibility needed for game development.
