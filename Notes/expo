@@ -5,6 +5,7 @@ Limitations: Certain native features or custom native code might not be possible
 Complexity: Low. It's much simpler to set up and get started, especially for beginners.
 
 
+
 When to Choose React Native vs Expo
 
 Choose Expo if:
