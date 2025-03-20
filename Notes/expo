@@ -5,7 +5,6 @@ Limitations: Certain native features or custom native code might not be possible
 Complexity: Low. It's much simpler to set up and get started, especially for beginners.
 
 
-
 When to Choose React Native vs Expo
 
 Choose Expo if:
@@ -15,6 +14,7 @@ You’re building an MVP or simple app that doesn’t need deep native customiza
 You want fast iteration, easy app testing, and over-the-air updates.
 You prefer a streamlined, managed environment with fewer setup and configuration tasks.
 You want to use Expo Go to quickly test your app on physical devices without a complicated setup.
+
 
 
 For a complex game like Designer City 2, which requires high performance, real-time updates, complex animations, and possibly 3D graphics, React Native is the better choice because it provides:
