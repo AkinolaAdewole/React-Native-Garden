@@ -35,3 +35,13 @@ E-commerce Apps: Build shopping apps with product listings, payment gateways, an
 Fitness and Health Apps: Include features like workout tracking, health monitoring, and integration with device sensors like GPS or step counters.
 
 Productivity Tools: To-do lists, task managers, and note-taking apps can be built using Expo.
+
+2. Cross-Platform Apps
+Since Expo works with React Native, you can easily build apps that work on both iOS and Android without writing separate code for each platform. You can also deploy the same app on the web using Expo's Web support.
+
+3. Media and Entertainment Apps
+Video and Music Streaming Apps: You can use Expo to build media-rich apps with audio and video playback functionality using Expo AV, which supports local and remote media.
+
+Photography Apps: Utilize the camera, photo gallery, and video recording features using Expo’s built-in camera module.
+
+Gaming Apps: While React Native isn't typically used for intensive gaming, you can still build casual 2D games using libraries like React Native Game Engine.
