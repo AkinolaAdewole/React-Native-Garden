@@ -27,3 +27,11 @@ Expo, while excellent for rapid mobile app development, is not well-suited for p
 So, if you're aiming to build a game like Designer City 2, you should start with React Native to avoid limitations down the road. You can integrate game engines and custom native code, providing the performance and flexibility needed for game development.
 
 Expo is a platform that enables developers to build cross-platform mobile apps using JavaScript and React Native. With Expo, you can build apps for iOS, Android, and the web from a single codebase. Here are some things you can build with Expo:
+1. Mobile Applications
+Social Media Apps: You can create apps with features like user authentication, real-time chat, notifications, and media sharing.
+
+E-commerce Apps: Build shopping apps with product listings, payment gateways, and order tracking.
+
+Fitness and Health Apps: Include features like workout tracking, health monitoring, and integration with device sensors like GPS or step counters.
+
+Productivity Tools: To-do lists, task managers, and note-taking apps can be built using Expo.
