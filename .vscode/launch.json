@@ -31,6 +31,7 @@
           "EXPO_DEBUG": "true"
         }
       },
+      
       {
         "name": "Attach to packager",
         "cwd": "${workspaceFolder}",
