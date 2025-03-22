@@ -32,12 +32,6 @@
         }
       },
       {
-        "name": "Attach to packager - Experimental",
-        "request": "attach",
-        "type": "reactnative",
-        "cwd": "${workspaceFolder}"
-      },
-      {
         "name": "Attach to packager",
         "cwd": "${workspaceFolder}",
         "type": "reactnative",
