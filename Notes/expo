@@ -52,3 +52,7 @@ Gaming Apps: While React Native isn't typically used for intensive gaming, you c
 Maps and Navigation: Expo provides support for location services, allowing you to create GPS-based apps for tracking, mapping, and navigation.
 
 Delivery Services: Build apps for food delivery, ride-sharing, or logistics using real-time location tracking and push notifications.
+
+
+5. IoT and Smart Device Control Apps
+You can connect your app to Internet of Things (IoT) devices by using Bluetooth, Wi-Fi, or APIs to control and monitor smart devices like lights, cameras, or sensors.
