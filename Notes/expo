@@ -56,3 +56,6 @@ Delivery Services: Build apps for food delivery, ride-sharing, or logistics usin
 
 5. IoT and Smart Device Control Apps
 You can connect your app to Internet of Things (IoT) devices by using Bluetooth, Wi-Fi, or APIs to control and monitor smart devices like lights, cameras, or sensors.
+
+6. AR and VR Apps
+With libraries such as Expo-AR and Three.js, you can integrate basic Augmented Reality (AR) and 3D rendering into your Expo projects.
