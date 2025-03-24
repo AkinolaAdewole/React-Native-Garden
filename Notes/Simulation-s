@@ -65,3 +65,11 @@ Connect Bluestacks to Flutter:
 
 Find Bluestacks' ADB port number by running the following command in your terminal or command prompt:
            adb connect localhost:5555
+
+
+If you want to refresh or reload your React Native app in the Android Studio emulator, here are the steps you can follow:
+
+1. For React Native with Expo:
+Shake the Emulator: If you’re using Expo, shake the emulator or press Ctrl + M (or Command + M on macOS) to bring up the developer menu.
+
+Select Reload: From the developer menu, select Reload to refresh the app.
