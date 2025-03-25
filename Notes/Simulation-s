@@ -30,7 +30,9 @@ Open Genymotion and configure it to use the Android SDK that Flutter uses.
 In Genymotion, go to Settings > ADB and check Use custom Android SDK tools. Set the path to your Android SDK directory, which is typically located in:
 macOS: ~/Library/Android/sdk
 Windows: C:\Users\YourUserName\AppData\Local\Android\Sdk
-Linux: ~/Android/Sdk
+Linux: ~/Android/Sdk'
+
+
 Create and Run a Virtual Device:
 
 In Genymotion, click + to add a new virtual device.
