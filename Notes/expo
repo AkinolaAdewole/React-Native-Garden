@@ -80,15 +80,3 @@ Flashcard Apps: Create learning aids and flashcards using React Native component
 10. Progressive Web Apps (PWAs)
 Expo allows you to deploy your app as a Progressive Web App (PWA), which runs in the browser but can function offline and provide a near-native experience on mobile devices.
 
-Key Expo Features that Help in Building Apps:
-Push Notifications: Easy setup for sending push notifications.
-
-Camera Access: Use device cameras for photography, barcode scanning, etc.
-
-Location Services: GPS access to build location-aware apps.
-
-Offline Support: Use SQLite or async storage for offline capabilities.
-
-Native Device Features: Access native APIs such as vibration, sensors, audio, video, and more without writing native code.
-
-App Deployment: Seamlessly publish apps to App Store and Google Play.
