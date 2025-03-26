@@ -6,6 +6,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Text>Hello, you are welcome to React Native.</Text>
+      <Image source={require('./assets/icon.png')}/>
       {/* <StatusBar style="auto" /> */}
     </SafeAreaView>
   );
