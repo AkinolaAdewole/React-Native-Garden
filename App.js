@@ -7,6 +7,9 @@ export default function App() {
     <SafeAreaView style={styles.container}>
       <Text>Hello, you are welcome to React Native.</Text>
       <Image source={require('./assets/icon.png')}/>
+
+      // specify the dimension for network images
+      <Image />
       {/* <StatusBar style="auto" /> */}
     </SafeAreaView>
   );
