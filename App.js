@@ -9,7 +9,12 @@ export default function App() {
       <Image source={require('./assets/icon.png')}/>
 
       // specify the dimension for network images
-      <Image />
+      <Image source={{
+        width: 200,
+        height:300,
+        uri: "https://picsum.photos/200/300"
+       }} 
+      />
       {/* <StatusBar style="auto" /> */}
     </SafeAreaView>
   );
