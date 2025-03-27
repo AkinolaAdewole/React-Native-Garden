@@ -1,6 +1,7 @@
 Expo is a framework and platform for building React Native applications. It simplifies the development process by providing a set of tools, libraries, and services that make it easier to build, test, and deploy React Native apps. 
 
 Key Features of Expo
+
 Managed Workflow: Expo provides a managed environment where you don’t need to configure native code (Android/iOS). It comes with pre-built libraries.
 Pre-installed APIs: It includes APIs for camera, location, push notifications, etc., without requiring manual linking.
 Expo Go App: Test your app instantly on a real device without needing a full build process.

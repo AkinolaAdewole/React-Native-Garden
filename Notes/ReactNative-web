@@ -3,7 +3,7 @@ React Native is primarily designed for building mobile applications for iOS and 
 1. Building Computer Software (Desktop Applications)
 Yes, React Native can be extended to build desktop applications, though it's not its primary focus. This can be done using certain libraries and frameworks.
 
-a. React Native for Windows and macOS:
+  a. React Native for Windows and macOS:
 React Native for Windows and macOS is an extension of React Native that allows developers to build native desktop applications for Windows and macOS using React Native.
 
 These projects are maintained by Microsoft and allow you to use React Native to create cross-platform apps that work on mobile, Windows, and macOS.
@@ -14,7 +14,7 @@ React Native for Windows
 React Native for macOS
 
 
-b. Electron + React Native:
+  b. Electron + React Native:
 Electron is a popular framework for building cross-platform desktop applications using web technologies like HTML, CSS, and JavaScript. You can integrate React Native with Electron to create desktop apps for Windows, macOS, and Linux.
 You can either:
 Use React with Electron directly to create a desktop app.
