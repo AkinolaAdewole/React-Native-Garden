@@ -15,7 +15,7 @@ export default function App() {
         uri: "https://picsum.photos/200/300"
        }} 
       />
-      <StatusBar style="auto" />
+      {/* <StatusBar style="auto" /> */}
     </SafeAreaView>
   );
 }
