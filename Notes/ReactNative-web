@@ -22,10 +22,11 @@ Combine React Native and Electron using libraries like react-native-electron or 
 
 
 
+
 2. Building Websites
 React Native can also be used to build web applications via an extension called React Native Web.
 
-a. React Native for Web:
+  a. React Native for Web:
 React Native Web is a library that enables React Native components to run on the web. It allows you to use your existing React Native codebase to create web applications, reusing a large portion of your code for both web and mobile.
 
 With React Native Web, you can write components in React Native and have them work seamlessly on web browsers.
@@ -35,10 +36,9 @@ How It Works:
 React Native’s components like <View>, <Text>, and <Image> get mapped to equivalent HTML elements like <div>, <p>, and <img>, making it possible to render mobile-like UIs on the web.
 Installation: You can install React Native Web in your project using:
 
-bash
-Copy
-Edit
+
 npm install react-native-web
+
 Documentation: React Native for Web
 
 Comparison: React Native vs Other Approaches
