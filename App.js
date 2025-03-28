@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,Image, SafeAreaView, TouchableWithoutFeedback } from 'react-native';
+import { StyleSheet, Text, View,Image, SafeAreaView, TouchableWithoutFeedback, Button } from 'react-native';
 
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
        }} 
       />
       <StatusBar style="auto" />
-      <Button  />
+      <Button  title='Click me'/>
     </SafeAreaView>
   );
 }
