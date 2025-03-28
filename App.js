@@ -9,7 +9,7 @@ export default function App() {
       <Image source={require('./assets/icon.png')}/>
 
       // specify the dimension for network images
-      <Touch
+      <TouchableWithoutFeedback></TouchableWithoutFeedback>
       <Image source={{
         width: 200,
         height:300,
