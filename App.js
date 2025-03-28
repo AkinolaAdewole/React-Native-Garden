@@ -20,6 +20,7 @@ export default function App() {
       <StatusBar style="auto" />
       <Button  title='Click me'
       color="Green"
+      onPress={()=> alert('Button clicked')}
       />
     </SafeAreaView>
   );
