@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,Image, SafeAreaView } from 'react-native';
+import { StyleSheet, Text, View,Image, SafeAreaView, TouchableWithoutFeedback } from 'react-native';
 
 export default function App() {
   
@@ -9,6 +9,7 @@ export default function App() {
       <Image source={require('./assets/icon.png')}/>
 
       // specify the dimension for network images
+      <Touch
       <Image source={{
         width: 200,
         height:300,
