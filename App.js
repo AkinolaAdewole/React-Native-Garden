@@ -18,7 +18,9 @@ export default function App() {
        }} 
       />
       <StatusBar style="auto" />
-      <Button  title='Click me'/>
+      <Button  title='Click me'
+      color="Green"
+      />
     </SafeAreaView>
   );
 }
