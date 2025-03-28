@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,Image, SafeAreaView, TouchableWithoutFeedback, Button } from 'react-native';
+import { StyleSheet, Text, View,Image, SafeAreaView, TouchableWithoutFeedback, Alert, Button } from 'react-native';
 
 
 export default function App() {
