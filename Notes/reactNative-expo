@@ -10,3 +10,6 @@ Easier Deployment: Publish apps with expo publish and build APKs/IPAs using eas 
 
 
 Expo is a great choice for beginners and rapid prototyping. If you need full control over native code, you may want to use the bare React Native workflow.
+
+
+components in expo
