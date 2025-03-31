@@ -30,6 +30,13 @@ export default function App() {
         {text: "No", onPress:()=> console.log("No")},
       ])}
       />
+
+    <Button  title='Click me'
+      color="Green"
+      onPress={()=>Alert.prompt("My Title", "My Message", text=> console.log(text);
+      )
+      />
+
     </SafeAreaView> 
   );
 }
