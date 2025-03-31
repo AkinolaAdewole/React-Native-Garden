@@ -27,7 +27,7 @@ export default function App() {
       color="Green"
       onPress={()=>Alert.alert("My Title", "My Mesage", [
         {text: "Yes", onPress:()=> console.log("Yes")},
-        {text: "No"}
+        {text: "No", onPress:()=> console.log("No")},
       ])}
       />
     </SafeAreaView> 
