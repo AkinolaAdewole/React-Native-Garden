@@ -22,10 +22,10 @@ export default function App() {
       color="Green"
       onPress={()=> alert('Button clicked')}
       />
-      
+
       <Button  title='Click me'
       color="Green"
-      onPress={()=> alert('Button clicked')}
+      onPress={()=>Alert.alert("My Title", "My Mesage")}
       />
     </SafeAreaView> 
   );
