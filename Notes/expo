@@ -92,3 +92,9 @@ Offline Support: Use SQLite or async storage for offline capabilities.
 Native Device Features: Access native APIs such as vibration, sensors, audio, video, and more without writing native code.
 
 App Deployment: Seamlessly publish apps to App Store and Google Play.
+
+
+
+Alert.prompt is only supported on iOS. If you're targeting Android, you may need an alternative input method (e.g., using a modal or a text input field).
+
+You wrapped an Image component inside TouchableWithoutFeedback, but you didn't define any behavior. If it's not needed, you can remove TouchableWithoutFeedback.
