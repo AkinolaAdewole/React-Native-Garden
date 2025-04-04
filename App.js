@@ -23,6 +23,10 @@ export default function App() {
       onPress={()=> alert('Button clicked')}
       />
 
+
+
+
+
       <Button  title='Click me'
       color="Green"
       onPress={()=>Alert.alert("My Title", "My Mesage", [
