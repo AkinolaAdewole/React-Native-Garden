@@ -17,6 +17,8 @@ export default function App() {
         uri: "https://picsum.photos/200/300"
        }} 
       />
+
+      
       <StatusBar style="auto" />
       <Button  title='Click me'
       color="Green"
