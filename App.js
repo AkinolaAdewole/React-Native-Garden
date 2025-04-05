@@ -26,9 +26,6 @@ export default function App() {
       />
 
 
-
-
-
       <Button  title='Click me'
       color="Green"
       onPress={()=>Alert.alert("My Title", "My Mesage", [
@@ -45,6 +42,8 @@ export default function App() {
     </SafeAreaView> 
   );
 }
+
+const containerStyle ={backgroundColor:'Orange'}
 
 const styles = StyleSheet.create({
   container: {
