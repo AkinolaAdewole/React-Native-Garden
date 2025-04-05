@@ -5,7 +5,7 @@ import { StyleSheet, Text, View,Image, SafeAreaView, TouchableWithoutFeedback, A
 export default function App() {
   
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[styles.container, containerStyle]}>
       <Text>Hello, you are welcome to React Native.</Text>
       <Image source={require('./assets/icon.png')}/>
 
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });
