@@ -1,56 +1,71 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View,Image, SafeAreaView, TouchableWithoutFeedback, Alert, Button, Platform, StatusBar } from 'react-native';
-
+import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  SafeAreaView,
+  TouchableWithoutFeedback,
+  Alert,
+  Button,
+  Platform,
+  StatusBar,
+} from 'react-native';
 
 export default function App() {
-  
   return (
-    <SafeAreaView style={[styles.container, containerStyle]}>
+    <SafeAreaView style={[styles.container]}>
       <Text>Hello, you are welcome to React Native.</Text>
-      <Image source={require('./assets/icon.png')}/>
+      <Image source={require('./assets/icon.png')} />
 
-      // specify the dimension for network images
-      <TouchableWithoutFeedback></TouchableWithoutFeedback>
-      <Image source={{
-        width: 200,
-        height:300,
-        uri: "https://picsum.photos/200/300"
-       }} 
+      {/* specify the dimension for network images */}
+      <Image
+        source={{
+          uri: 'https://picsum.photos/200/300',
+        }}
+        style={{ width: 200, height: 300 }}
       />
 
-      
-      <StatusBar style="auto" />
-      <Button  title='Click me'
-      color="Green"
-      onPress={()=> alert('Button clicked')}
+      <ExpoStatusBar style="auto" />
+
+      <Button
+        title="Click me"
+        color="green"
+        onPress={() => alert('Button clicked')}
       />
 
-
-      <Button  title='Click me'
-      color="Green"
-      onPress={()=>Alert.alert("My Title", "My Mesage", [
-        {text: "Yes", onPress:()=> console.log("Yes")},
-        {text: "No", onPress:()=> console.log("No")},
-      ])}
+      <Button
+        title="Click me"
+        color="green"
+        onPress={() =>
+          Alert.alert('My Title', 'My Message', [
+            { text: 'Yes', onPress: () => console.log('Yes') },
+            { text: 'No', onPress: () => console.log('No') },
+          ])
+        }
       />
 
-    <Button  title='Click me'
-      color="Green"
-      onPress={() => Alert.prompt("My Title", "My Message", text => console.log(text))}
+      <Button
+        title="Click me"
+        color="green"
+        onPress={() => {
+          if (Platform.OS === 'ios') {
+            Alert.prompt('My Title', 'My Message', text =>
+              console.log(text)
+            );
+          } else {
+            alert('Prompt is not available on Android.');
+          }
+        }}
       />
-
-    </SafeAreaView> 
+    </SafeAreaView>
   );
 }
-
-const containerStyle ={backgroundColor:'Orange'}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    paddingTop: Platform.OS ===
-    // alignItems: 'center',
-    // justifyContent: 'center',
+    backgroundColor: 'orange',
+    paddingTop: Platform.OS === 'android' ? StatusBar.currentHeight : 0,
   },
 });
